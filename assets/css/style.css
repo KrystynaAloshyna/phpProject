@@ -1,0 +1,47 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+a{
+    color: rgb(147, 74, 215);
+    font-weight: bold;
+    text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 1px solid rgb(50, 8, 117);
+    outline:none;
+
+}
+button{
+    padding: 10px;
+    background: rgb(242, 237, 250);
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+p{text-align: center;
+margin: 10px;}
+
+.message{
+    border: 1px solid rgb(189, 113, 26);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
